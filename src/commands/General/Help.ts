@@ -13,7 +13,7 @@ export default class Command extends BaseCommand {
             description: 'Displays the help menu or shows the info of the command provided',
             category: 'general',
             usage: `${client.config.prefix}help (command_name)`,
-            aliases: ['h', 'menu', 'piku', 'cmd']
+            aliases: ['h', 'menu', 'lucy', 'cmd']
         })
     }
 
@@ -38,7 +38,7 @@ export default class Command extends BaseCommand {
             let text = `
 ╭─「check guide command *,guide*」
 │⋊ ᴜꜱᴇʀ: *${M.sender.username}*
-│⋊ ɴᴀᴍᴇ: PIKU
+│⋊ ɴᴀᴍᴇ: Elaina
 │⋊ ᴘʀᴇꜰɪx: ${this.client.config.prefix}
 │⋊ ᴏᴡɴᴇʀ: <${this.client.config.prefix}mod>
 │⋊ ᴏᴡɴᴇʀ: if you wanna add bot ask to owner
@@ -55,7 +55,7 @@ export default class Command extends BaseCommand {
             caption: `${text} 
  ──❅┈[ Chitoge ]┈❅───
 ┌────────────┈❅
-│   🧨 PIKU
+│   🧨 Lucy
 │   ©️ Synthesized Infinity Botto
 └────────────┈⁂
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
@@ -78,5 +78,5 @@ export default class Command extends BaseCommand {
             )}\n💎 *Usage:* ${command.config?.usage || ''}\n\n📒 *Description:* ${command.config?.description || ''}`
         )
     }
-    emojis = ['💫', '📚', '⚙️', '👨‍💻', '📚', '👻', '🎲', '😶‍🌫️', '📼', '🦉', '🪜']
+    emojis = ['❤️', '❤️', '❤️', '❤️', '❤️', '❤️', '❤️', '❤️', '❤️', '❤️', '❤️']
 }
